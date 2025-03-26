@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <form id="registrationForm">
+      <div class="container">
+        <h2>Login Form</h2>
+        <div class="row">
+          <div class="col">
+            <div class="inputbox">
+              <input type="text" id="name" required="required" />
+              <span class="text">First Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputbox">
+              <input type="text" id="email" name="email" required="required" />
+              <span class="text">Email</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="inputbox">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required="required"
+              />
+              <span class="text">Password</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputbox">
+              <input
+                type="password"
+                id="cpassword"
+                name="confirmPassword"
+                required="required"
+              />
+              <span class="text">Confirm Password</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input class="submit" id="n1" type="submit" value="Send" />
+          </div>
+        </div>
+        <div id="validation-message"></div>
+      </div>
+    </form>
+    <script src="js/script.js"></script>
+  </body>
+</html>
