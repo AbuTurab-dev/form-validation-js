@@ -24,7 +24,7 @@ Validation Rules
     • Password Confirmation: Must match the password 
 Installation
     1. Clone the repository 
-git clone https://github.com/AbuTurab-dev/login-form.git
+git clone https://github.com/AbuTurab-dev/form-validation-js.git
     2. Open the index.html file in your web browser 
 Project Structure
 login-form/
